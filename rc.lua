@@ -490,11 +490,11 @@ awful.rules.rules = {
     { rule = { class = "discord" },
       properties = { screen = 2, tag = "1" } },
 
-    { rule = { class = "firefox" },
-      properties = { width = 1700, height = 950 }},
+    -- { rule = { class = "firefox" },
+    --   properties = { width = 1700, height = 950 }},
 
-    { rule_any = { class = { "jetbrains-pycharm-ce", "VSCodium" } },
-      properties = { screen = 1, tag = "1", x = 1920, y = 20, width = 1600, height = 1060 }},
+    -- { rule_any = { class = { "jetbrains-pycharm-ce", "VSCodium" } },
+    --   properties = { screen = 1, tag = "1", x = 1920, y = 20, width = 1600, height = 1060 }},
 
     { rule = { class = "kitty" },
       properties = { width = 1200, height = 700 }},
