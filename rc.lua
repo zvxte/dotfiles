@@ -51,7 +51,7 @@ beautiful.init(theme_path)
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
-editor = os.getenv("EDITOR") or "nvim"
+editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -488,7 +488,7 @@ awful.rules.rules = {
 
     -- Set Discord to always map on the tag named "2" on screen 1.
     { rule = { class = "discord" },
-      properties = { screen = 2, tag = "1" } },
+      properties = { screen = 2, tag = "1", width = 1280, height = 720 } },
 
     -- { rule = { class = "firefox" },
     --   properties = { width = 1700, height = 950 }},
