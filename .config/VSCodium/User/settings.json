@@ -1,0 +1,96 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1f22",
+        "minimap.background": "#1e1f22",
+        "editorGutter.background": "#191a1d",
+
+        "sideBar.background": "#191a1d",
+        "sideBar.border": "#414244",
+        "sideBar.foreground": "#888c99",
+        "sideBarSectionHeader.foreground": "#888a91",
+        "sideBarSectionHeader.background": "#151618",
+        
+        "breadcrumb.background": "#191a1d",
+        "breadcrumb.foreground": "#6e717a",
+        
+        "editorLineNumber.foreground": "#72747a",
+        
+        "editorGroupHeader.tabsBackground": "#191a1d",
+        "editorGroupHeader.noTabsBackground": "#191a1d",
+
+        "tab.activeBackground": "#1e1f22",
+        "tab.inactiveBackground": "#191a1d",
+        "tab.activeForeground": "#c6c7cc",
+        "tab.inactiveForeground": "#6e717a",
+        "tab.activeBorderTop": "#6e717a",
+
+        "editorHoverWidget.background": "#191a1d",
+        "editorHoverWidget.foreground": "#c6c7cc",
+
+        "scrollbarSlider.background": "#3a3c41",
+        "scrollbarSlider.hoverBackground": "#404247",
+        "scrollbarSlider.activeBackground": "#323336", 
+        
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#41634a",
+        "keywords": "#8558ce",
+        "functions": "#b9be71",
+        "variables": "#bfc1c7",
+        "numbers": "#7cbdd6",
+        "strings": "#bb8a62",
+        "types": "#ac6b9a",
+    },
+
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 19,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "editor.codeActionWidget.showHeaders": false,
+    "editor.codeLens": false,
+    "editor.colorDecoratorsLimit": 100,
+    "editor.hover.hidingDelay": 200,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 3,
+    "editor.minimap.showSlider": "always",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "workbench.tips.enabled": false,
+    "extensions.autoCheckUpdates": false,
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "kitty",
+    "task.allowAutomaticTasks": "off",
+    "window.menuBarVisibility": "toggle",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.letterSpacing": 0.5,
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.padding.top": 20,
+    "editor.padding.bottom": 20,
+    "editor.renderLineHighlight": "gutter",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.location": "hidden",
+    "explorer.confirmDelete": false,
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    "editor.hover.delay": 200,
+    "debug.onTaskErrors": "abort",
+    "python.analysis.logLevel": "Warning",
+    "python.analysis.typeCheckingMode": "strict",
+    "files.autoSaveDelay": 300,
+    "update.showReleaseNotes": false,
+    "workbench.statusBar.visible": false,
+    "glassit.alpha": 100,
+    "rust-analyzer.completion.autoimport.enable": false,
+    "Lua.diagnostics.workspaceDelay": 500
+}
