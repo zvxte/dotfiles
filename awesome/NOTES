@@ -1,0 +1,19 @@
+# REQUIREMENTS
+    - JetBrains Mono font
+
+
+# KEY BINDINGS
+    MOD + 
+          1-4   change tag
+
+            R   run
+            T   open terminal
+            B   maximize/minimize
+            N   fullscreen
+            
+            X   close window
+          D,F   change window focus
+          C,V   change window size
+          S,G   change window index order
+
+            A   change screen
