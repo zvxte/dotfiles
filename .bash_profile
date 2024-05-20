@@ -4,8 +4,10 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-# Run X server
-exec startx
+# run x only on tty1
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+    exec startx
+fi
 
-# Cargo
+# cargo
 . "$HOME/.cargo/env"
