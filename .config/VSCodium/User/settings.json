@@ -50,7 +50,7 @@
     "workbench.startupEditor": "none",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 19,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Input Mono",
     "editor.language.colorizedBracketPairs": [
     
     ],
