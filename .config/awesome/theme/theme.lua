@@ -6,7 +6,7 @@ local theme_dir = gfs.get_configuration_dir() .. "theme/"
 
 local theme = {}
 
-theme.font          = "JetBrains Mono 12"
+theme.font          = "Input Mono 12"
 
 theme.bg_normal     = "#1a1a1a"
 theme.bg_focus      = "#333333"
