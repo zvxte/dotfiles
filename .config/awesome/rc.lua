@@ -13,6 +13,7 @@ beautiful.init(gears.filesystem.get_configuration_dir() .. "theme/theme.lua")
 
 modkey = "Mod4"
 terminal = "kitty"
+browser = "chromium"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
@@ -184,6 +185,8 @@ globalkeys = gears.table.join(
     -- Standard program
     awful.key({ modkey,           }, "t", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey,	          }, "y", function () awful.spawn(browser) end,
+              {description = "open a browser", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Control" }, "q", awesome.quit,
