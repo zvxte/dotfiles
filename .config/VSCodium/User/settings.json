@@ -82,7 +82,6 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.activityBar.location": "hidden",
     "explorer.confirmDelete": false,
-    "C_Cpp.intelliSenseUpdateDelay": 500,
     "editor.hover.delay": 200,
     "debug.onTaskErrors": "abort",
     "python.analysis.logLevel": "Warning",
