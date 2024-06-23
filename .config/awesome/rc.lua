@@ -13,7 +13,7 @@ beautiful.init(gears.filesystem.get_configuration_dir() .. "theme/theme.lua")
 
 modkey = "Mod4"
 terminal = "kitty"
-browser = "chromium"
+browser = "firefox"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
