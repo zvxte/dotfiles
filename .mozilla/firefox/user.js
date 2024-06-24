@@ -1119,3 +1119,5 @@ user_pref("signon.management.page.breach-alerts.enabled", false);
 user_pref("media.autoplay.default", 5);
 /* disable pocket */
 user_pref("extensions.pocket.enabled", false);
+/* disable picture in picture video controls */
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
