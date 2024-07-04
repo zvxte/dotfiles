@@ -143,7 +143,7 @@
  /* 0602: disable DNS prefetching
   * [1] https://developer.mozilla.org/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control ***/
  user_pref("network.dns.disablePrefetch", true);
-    // user_pref("network.dns.disablePrefetchFromHTTPS", true); // [DEFAULT: true]
+ user_pref("network.dns.disablePrefetchFromHTTPS", true); // [DEFAULT: true]
  /* 0603: disable predictor / prefetching ***/
  user_pref("network.predictor.enabled", false);
  user_pref("network.predictor.enable-prefetch", false); // [FF48+] [DEFAULT: false]
@@ -154,7 +154,7 @@
  user_pref("browser.places.speculativeConnect.enabled", false);
  /* 0610: enforce no "Hyperlink Auditing" (click tracking)
   * [1] https://www.bleepingcomputer.com/news/software/major-browsers-to-prevent-disabling-of-click-tracking-privacy-risk/ ***/
-    // user_pref("browser.send_pings", false); // [DEFAULT: false]
+ user_pref("browser.send_pings", false); // [DEFAULT: false]
  
  /*** DNS / DoH / PROXY / SOCKS ***/
  /* 0702: set the proxy server to do any DNS lookups when using SOCKS
@@ -813,7 +813,7 @@
  user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
  /* 5011: disable location bar dropdown
   * This value controls the total number of entries to appear in the location bar dropdown ***/
- user_pref("browser.urlbar.maxRichResults", 0);
+//  user_pref("browser.urlbar.maxRichResults", 0);
  /* 5012: disable location bar autofill
   * [1] https://support.mozilla.org/kb/address-bar-autocomplete-firefox#w_url-autocomplete ***/
  user_pref("browser.urlbar.autoFill", false);
@@ -1121,3 +1121,23 @@ user_pref("media.autoplay.default", 5);
 user_pref("extensions.pocket.enabled", false);
 /* disable picture in picture video controls */
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+
+user_pref("media.ffmpeg.vaapi.enabled", true);
+
+
+/* BETTERFOX SETTINGS FOR SMOOTH SCROLL */
+// credit: https://github.com/AveYo/fox/blob/cf56d1194f4e5958169f9cf335cd175daa48d349/Natural%20Smooth%20Scrolling%20for%20user.js
+// recommended for 120hz+ displays
+// largely matches Chrome flags: Windows Scrolling Personality and Smooth Scrolling
+user_pref("apz.overscroll.enabled", true); // DEFAULT NON-LINUX
+user_pref("general.smoothScroll", true); // DEFAULT
+user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
+user_pref("general.smoothScroll.msdPhysics.enabled", true);
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 600);
+user_pref("general.smoothScroll.msdPhysics.regularSpringConstant", 650);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS", 25);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", "2");
+user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
+user_pref("general.smoothScroll.currentVelocityWeighting", "1");
+user_pref("general.smoothScroll.stopDecelerationWeighting", "1");
+user_pref("mousewheel.default.delta_multiplier_y", 250); // 250-400; adjust this number to your liking
