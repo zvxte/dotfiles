@@ -30,5 +30,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# load nvidia-settings config, start awesome wm
+# load nvidia-settings config and start awesome wm
 exec nvidia-settings --load-config-only & awesome
