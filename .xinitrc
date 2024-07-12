@@ -30,5 +30,14 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# load nvidia-settings config and start awesome wm
-exec nvidia-settings --load-config-only & awesome
+# themes
+export GTK_THEME="Adwaita-dark"
+export GTK2_RC_FILES="$HOME/.themes/Adwaita-dark/gtk-2.0/gtkrc"
+
+# firefox va-api
+export LIBVA_DRIVER_NAME="nvidia"
+export MOZ_DISABLE_RDD_SANDBOX=1
+export LIBVA_MESSAGING_LEVEL=1
+
+# load nvidia-settings config, start awesome wm
+ exec nvidia-settings --load-config-only & awesome
