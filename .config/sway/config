@@ -1,5 +1,6 @@
 ### Variables
     set $mod     Mod4
+    set $font "Input Mono 12"
     set $term    kitty
     set $browser firefox
 
@@ -91,7 +92,7 @@
     # Read `man 5 sway-bar` for more information about this section.
     bar {
         position top
-        font "Input Mono 12"
+        font $font
         height 20
 
         # Disable scrolling over workspaces
