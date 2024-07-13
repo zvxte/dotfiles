@@ -112,12 +112,12 @@
 
 
 ### Borders
-default_border none
+    default_border none
 
 
 ### Gaps
-gaps outer 8
-gaps inner 4
+    gaps outer 8
+    gaps inner 4
 
 
 include /etc/sway/config.d/*
