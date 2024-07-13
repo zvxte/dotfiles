@@ -1,6 +1,6 @@
 ### Variables
     set $mod     Mod4
-    set $font "Input Mono 12"
+    set $font    "Input Mono 12"
     set $term    kitty
     set $browser firefox
 
@@ -11,7 +11,7 @@
     # Your preferred application launcher
     # Note: pass the final command to swaymsg so that the resulting window can be opened
     # on the original workspace that the command was run on.
-    set $menu dmenu_path | wmenu -i | xargs swaymsg exec --
+    set $menu    dmenu_path | wmenu -i | xargs swaymsg exec --
 
 
 ### Output configuration
