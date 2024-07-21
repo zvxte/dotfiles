@@ -25,6 +25,9 @@
       "milliseconds": 300
     }
   },
+  "ensure_final_newline_on_save": true,
+  "remove_trailing_whitespace_on_save": true,
+  "format_on_save": "off",
   // UI
   "cursor_blink": false,
   "tab_bar": {
@@ -48,5 +51,38 @@
     "show_other_hints": true,
     "edit_debounce_ms": 300,
     "scroll_debounce_ms": 50
+  },
+  // Language specific
+  "languages": {
+    "Rust": {
+      "format_on_save": "on"
+    },
+    "Python": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "venv/bin/black",
+          "arguments": ["-"]
+        }
+      }
+    },
+    "Go": {
+      "format_on_save": "on"
+    }
+  },
+  // LSP
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace",
+          "typeCheckingMode": "strict",
+          "ignore": ["**/__init__.py"]
+        },
+        "python": {
+          "pythonPath": "venv/bin/python"
+        }
+      }
+    }
   }
 }
