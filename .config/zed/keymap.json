@@ -13,5 +13,32 @@
       "ctrl-9": ["pane::ActivateItem", 8],
       "ctrl-0": "pane::ActivateLastItem"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-i": "editor::MoveUp",
+      "alt-k": "editor::MoveDown",
+      "alt-j": "editor::MoveLeft",
+      "alt-l": "editor::MoveRight",
+
+      "ctrl-alt-i": "editor::LineUp",
+      "ctrl-alt-k": "editor::LineDown",
+      "ctrl-alt-j": "editor::MoveToPreviousWordStart",
+      "ctrl-alt-l": "editor::MoveToNextWordEnd",
+
+      "shift-alt-i": "editor::SelectUp",
+      "shift-alt-k": "editor::SelectDown",
+      "shift-alt-j": "editor::SelectLeft",
+      "shift-alt-l": "editor::SelectRight",
+
+      "ctrl-shift-alt-j": "editor::SelectToPreviousWordStart",
+      "ctrl-shift-alt-l": "editor::SelectToNextWordEnd",
+      
+      "alt-left": "editor::MoveToBeginningOfLine",
+      "alt-right": "editor::MoveToEndOfLine",
+      "shift-alt-left": "editor::SelectToBeginningOfLine",
+      "shift-alt-right": "editor::SelectToEndOfLine"
+    }
   }
 ]
