@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 # Primary prompt displayed before each command
-PS1='\w '
+PS1='[\w]\$ '
 
 # Cargo
 . "$HOME/.cargo/env"
