@@ -28,6 +28,10 @@
   "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
   "format_on_save": "off",
+  // Types
+  "file_types": {
+    "C": ["h"]
+  },
   // UI
   "cursor_blink": false,
   "tab_bar": {
@@ -52,6 +56,8 @@
     "edit_debounce_ms": 300,
     "scroll_debounce_ms": 50
   },
+  // Formatting
+  "tab_size": 4,
   // Language specific
   "languages": {
     "Rust": {
@@ -66,12 +72,14 @@
         }
       }
     },
-    "Go": {
-      "format_on_save": "on"
-    },
     "C": {
       "format_on_save": "on",
-      "tab_size": 2
+      "inlay_hints": {
+        "show_parameter_hints": false
+      }
+    },
+    "Go": {
+        "format_on_save": "on"
     }
   },
   // LSP
