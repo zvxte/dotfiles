@@ -1,17 +1,5 @@
 {
   // Telemetry
-  "outline_panel": {
-    "dock": "right"
-  },
-  "collaboration_panel": {
-    "dock": "right"
-  },
-  "terminal": {
-    "dock": "right"
-  },
-  "features": {
-    "inline_completion_provider": "none"
-  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -20,11 +8,12 @@
   "auto_update": false,
   // Font
   "ui_font_size": 16,
+  "ui_font_family": "Ubuntu",
   "buffer_font_size": 18,
   "buffer_font_family": "Input Mono",
   "buffer_font_weight": 275,
-  "ui_font_family": "Ubuntu",
   "current_line_highlight": "line",
+  "unnecessary_code_fade": 0.7,
   // Theme
   "theme": {
     "mode": "dark",
@@ -64,7 +53,18 @@
     "enabled": false,
     "version": "1"
   },
-  "unnecessary_code_fade": 0.7,
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
   // Git
   "git": {
     "inline_blame": {
