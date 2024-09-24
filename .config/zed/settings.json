@@ -1,5 +1,17 @@
 {
   // Telemetry
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -41,6 +53,18 @@
     "breadcrumbs": false,
     "quick_actions": false
   },
+  "tabs": {
+    "file_icons": true
+  },
+  "project_panel": {
+      "dock": "left",
+      "indent_size": 30
+  },
+  "assistant": {
+    "enabled": false,
+    "version": "1"
+  },
+  "unnecessary_code_fade": 0.7,
   // Git
   "git": {
     "inline_blame": {
