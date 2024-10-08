@@ -20,7 +20,7 @@
     "light": "One Light",
     "dark": "JetBrains New Dark"
   },
-  // Save
+  // Save / Formatting
   "autosave": {
     "after_delay": {
       "milliseconds": 300
@@ -29,6 +29,7 @@
   "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
   "format_on_save": "off",
+  "tab_size": 4,
   // Types
   "file_types": {
     "C": ["h"]
@@ -51,7 +52,7 @@
   },
   "assistant": {
     "enabled": false,
-    "version": "1"
+    "version": "2"
   },
   "outline_panel": {
     "dock": "right"
@@ -80,8 +81,6 @@
     "edit_debounce_ms": 300,
     "scroll_debounce_ms": 50
   },
-  // Formatting
-  "tab_size": 4,
   // Language specific
   "languages": {
     "Rust": {
