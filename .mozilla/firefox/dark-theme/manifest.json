@@ -1,0 +1,65 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Dark theme by zvxte",
+  "homepage_url": "https://github.com/zvxte",
+  "browser_specific_settings": {
+    "gecko": {
+      "_message": "Explicit ID is required to install unsigned add-ons locally.",
+      "id": "zvxte@github"
+    }
+  },
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(71, 69, 69)",
+      "toolbar_text": "rgb(255, 255, 255)",
+      "frame": "rgb(43, 41, 41)",
+      "tab_background_text": "rgb(255, 255, 255)",
+      "toolbar_field": "rgb(43, 41, 41)",
+      "toolbar_field_text": "rgb(255, 255, 255)",
+      "tab_line": "rgba(255, 255, 255, 0)",
+      "popup": "rgb(43, 41, 41)",
+      "popup_text": "rgb(255, 255, 255)",
+      "button_background_active": "rgb(63, 61, 61)",
+      "button_background_hover": "rgb(59, 57, 57)",
+      "icons_attention": "rgb(152, 149, 149)",
+      "icons": "rgb(255, 255, 255)",
+      "ntp_background": "rgb(33, 31, 31)",
+      "ntp_text": "rgb(255, 255, 255)",
+      "popup_border": "rgb(33, 31, 31)",
+      "popup_highlight_text": "rgb(255, 255, 255)",
+      "popup_highlight": "rgb(71, 69, 69)",
+      "sidebar_border": "rgb(33, 31, 31)",
+      "sidebar_highlight_text": "rgb(255, 255, 255)",
+      "sidebar_highlight": "rgb(71, 69, 69)",
+      "sidebar_text": "rgb(255, 255, 255)",
+      "sidebar": "rgb(43, 41, 41)",
+      "tab_loading": "rgb(152, 149, 149)",
+      "tab_selected": "rgb(71, 69, 69)",
+      "tab_text": "rgb(255, 255, 255)",
+      "toolbar_bottom_separator": "rgb(33, 31, 31)",
+      "toolbar_field_border_focus": "rgb(43, 41, 41)",
+      "toolbar_field_border": "rgb(43, 41, 41)",
+      "toolbar_field_focus": "rgb(43, 41, 41)",
+      "toolbar_field_highlight_text": "rgb(0, 0, 0)",
+      "toolbar_field_highlight": "rgb(152, 149, 149)",
+      "toolbar_field_separator": "rgb(33, 31, 31)",
+      "toolbar_field_text_focus": "rgb(255, 255, 255)",
+      "toolbar_top_separator": "rgb(33, 31, 31)",
+      "toolbar_vertical_separator": "rgb(33, 31, 31)"
+    }
+  }
+}
