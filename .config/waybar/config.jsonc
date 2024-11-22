@@ -1,8 +1,12 @@
 // -*- mode: jsonc -*-
 {
     // "reload_style_on_change": true,
+    "height": 20,
     "layer": "top",
     "position": "top",
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
     "modules-right": [
         "tray",
         "pulseaudio",
@@ -10,14 +14,17 @@
         "memory",
         "clock"
     ],
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate"
+    },
     "pulseaudio": {
         "format": "{volume}% VOL",
         "on-click": "pavucontrol"
     },
     "cpu": {
         "interval": 10,
-        "format": "{usage}% CPU",
-        "tooltip": false
+        "format": "{usage}% CPU"
     },
     "memory": {
         "interval": 30,
@@ -25,6 +32,7 @@
     },
     "clock": {
         "interval": 60,
-        "format": "{:%H:%M  |  %d.%m.%Y}"
+        "format": "{:%H:%M  |  %d.%m.%Y}",
+        "tooltip-format": "{:%A, %d.%m.%Y}"
     }
 }
