@@ -1,0 +1,18 @@
+/*
+    Color scheme for various themes.
+    This file defines colors in hex format and is not imported anywhere.
+*/
+
+:root {
+    --bg-lighter: #989595;
+    --bg-light: #474545;
+
+    --bg-dark: #2b2929;
+    --bg-darker: #211f1f;
+
+    --bg-hover: #3b3939;
+    --bg-active: #3f3d3d;
+
+    --fg-light: #ffffff;
+    --fg-dark: #000000;
+}
