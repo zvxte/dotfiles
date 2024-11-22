@@ -1,0 +1,12 @@
+configuration {
+  modes: "run,drun";
+  font: "Input Mono 12";
+  show-icons: true;
+  terminal: "kitty";
+  disable-history: true;
+	kb-element-next: "";
+	kb-element-prev: "";
+	kb-row-select: "Tab";
+  kb-accept-entry: "";
+  kb-accept-custom: "Return";
+}
