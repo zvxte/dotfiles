@@ -1,5 +1,5 @@
 * {
-    font-family: Ubuntu;
+    font-family: Input Mono;
     font-size: 16px;
     margin: 0;
     border: 0;
@@ -10,7 +10,7 @@ window#waybar {
 }
 
 button {
-    color: #bebebe;
+    color: #a1a1a1;
     padding: 0 4px;
     min-height: 16px;
 }
@@ -21,7 +21,7 @@ button {
 #cpu,
 #memory,
 #clock {
-    color: #bebebe;
+    color: #a1a1a1;
     padding: 0 20px;
 }
 
