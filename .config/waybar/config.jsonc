@@ -32,7 +32,7 @@
     },
     "clock": {
         "interval": 60,
-        "format": "{:%H:%M  |  %d.%m.%Y}",
+        "format": "{:%H:%M | %d.%m.%Y}",
         "tooltip-format": "{:%A, %d.%m.%Y}"
     }
 }
