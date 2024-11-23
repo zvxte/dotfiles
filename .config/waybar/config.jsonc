@@ -9,7 +9,6 @@
     ],
     "modules-right": [
         "tray",
-        "pulseaudio",
         "cpu",
         "memory",
         "clock"
@@ -18,16 +17,12 @@
         "format": "{name}",
         "on-click": "activate"
     },
-    "pulseaudio": {
-        "format": "{volume:3}% VOL",
-        "on-click": "pavucontrol"
-    },
     "cpu": {
         "interval": 10,
         "format": "{usage:3}% CPU"
     },
     "memory": {
-        "interval": 30,
+        "interval": 10,
         "format": "{:3}% MEM"
     },
     "clock": {
