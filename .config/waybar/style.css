@@ -15,6 +15,14 @@ button {
     min-height: 16px;
 }
 
+tooltip {
+    background-color: #211f1f;
+}
+
+tooltip label {
+    color: #a1a1a1;
+}
+
 #workspaces,
 #tray,
 #pulseaudio,
