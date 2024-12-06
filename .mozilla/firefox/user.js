@@ -25,6 +25,7 @@ user_pref("devtools.accessibility.enabled", false);
 user_pref("middlemouse.contentLoadURL", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("browser.download.manager.addToRecentDocs", false);
+user_pref("browser.quitShortcut.disabled", true);
 
 // Apps & Extensions
 user_pref("identity.fxaccounts.enabled", false);
