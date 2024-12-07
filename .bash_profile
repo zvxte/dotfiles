@@ -9,6 +9,7 @@ export GTK_THEME="Adwaita-dark"
 export GTK2_RC_FILES="$HOME/.themes/Adwaita-dark/gtk-2.0/gtkrc"
 
 export PATH=$PATH:~/bin
+export PATH=$PATH:$(go env GOPATH)/bin
 
 # run sway on tty1
 if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
@@ -23,6 +24,11 @@ fi
 # run x on tty2
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 2 ]; then
     exec startx
+fi
+
+# run hyperland on tty3
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 3 ]; then
+    exec Hyprland
 fi
 
 # cargo
