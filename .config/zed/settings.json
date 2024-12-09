@@ -1,128 +1,136 @@
 {
-  // Telemetry
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  // Update
-  "auto_update": false,
-  // Font
-  "ui_font_size": 16,
-  "ui_font_family": "Ubuntu",
-  "buffer_font_size": 18,
-  "buffer_font_family": "Input Mono",
-  "buffer_font_weight": 275,
-  "current_line_highlight": "line",
-  "unnecessary_code_fade": 0.7,
-  // Theme
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "JetBrains New Dark"
-  },
-  // Save / Formatting
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 300
-    }
-  },
-  "ensure_final_newline_on_save": true,
-  "remove_trailing_whitespace_on_save": true,
-  "format_on_save": "off",
-  "tab_size": 4,
-  // Types
-  "file_types": {
-    "C": ["h"]
-  },
-  // UI
-  "cursor_blink": false,
-  "tab_bar": {
-    "show_nav_history_buttons": false
-  },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "tabs": {
-    "file_icons": true
-  },
-  "project_panel": {
-      "dock": "left",
-      "indent_size": 30
-  },
-  "assistant": {
-    "enabled": false,
-    "version": "2"
-  },
-  "outline_panel": {
-    "dock": "right"
-  },
-  "collaboration_panel": {
-    "dock": "right"
-  },
-  "terminal": {
-    "dock": "right"
-  },
-  "features": {
-    "inline_completion_provider": "none"
-  },
-  // Git
-  "git": {
-    "inline_blame": {
-      "enabled": false
-    }
-  },
-  // Hints
-  "inlay_hints": {
-    "enabled": true,
-    "show_type_hints": true,
-    "show_parameter_hints": true,
-    "show_other_hints": true,
-    "edit_debounce_ms": 300,
-    "scroll_debounce_ms": 50
-  },
-  // Language specific
-  "languages": {
-    "Rust": {
-      "format_on_save": "on"
+    // Telemetry / Update
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
     },
-    "Python": {
-      "format_on_save": "on",
-      "formatter": {
-        "external": {
-          "command": "venv/bin/black",
-          "arguments": ["-"]
+    "auto_update": false,
+
+    // Theme
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "JetBrains New Dark"
+    },
+
+    // Save / Formatting
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 300
         }
-      }
     },
-    "C": {
-      "format_on_save": "on",
-      "inlay_hints": {
-        "show_parameter_hints": false
-      }
+    "ensure_final_newline_on_save": true,
+    "remove_trailing_whitespace_on_save": true,
+    "tab_size": 4,
+
+    // Font
+    "ui_font_size": 16,
+    "ui_font_family": "Ubuntu",
+    "buffer_font_size": 18,
+    "buffer_font_family": "Input Mono",
+    "buffer_font_weight": 275,
+    "current_line_highlight": "line",
+    "unnecessary_code_fade": 0.7,
+
+    // UI
+    "cursor_blink": false,
+    "tab_bar": {
+        "show_nav_history_buttons": false
     },
-    "Go": {
-        "format_on_save": "on"
-    }
-  },
-  // LSP
-  "lsp": {
-    "pyright": {
-      "settings": {
-        "python.analysis": {
-          "diagnosticMode": "workspace",
-          "typeCheckingMode": "strict",
-          "ignore": ["**/__init__.py"]
+    "toolbar": {
+        "breadcrumbs": false,
+        "quick_actions": false
+    },
+    "tabs": {
+        "file_icons": true
+    },
+    "project_panel": {
+        "indent_size": 30,
+        "dock": "left",
+        "scrollbar": {
+            "show": "never"
+        }
+    },
+    "outline_panel": {
+        "dock": "right"
+    },
+    "assistant": {
+        "enabled": false,
+        "version": "2"
+    },
+    "collaboration_panel": {
+        "button": false
+    },
+    "notification_panel": {
+        "button": false
+    },
+    "chat_panel": {
+        "button": false
+    },
+    "terminal": {
+        "button": false
+    },
+    "features": {
+        "inline_completion_provider": "none"
+    },
+
+    // Hints
+    "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+        "edit_debounce_ms": 300,
+        "scroll_debounce_ms": 50
+    },
+
+    // Git
+    "git": {
+        "inline_blame": {
+            "enabled": false
+        }
+    },
+
+    // Types
+    "file_types": {
+        "C": ["h"]
+    },
+
+    // Language specific
+    "languages": {
+        "Python": {
+            "formatter": {
+                "external": {
+                    "command": "venv/bin/black",
+                    "arguments": ["-"]
+                }
+            }
         },
-        "python": {
-          "pythonPath": "venv/bin/python"
+        "C": {
+            "inlay_hints": {
+                "show_parameter_hints": false
+            }
         }
-      }
     },
-    "gopls": {
-        "initialization_options": {
-            "usePlaceholders": false
+
+    // LSP
+    "lsp": {
+        "pyright": {
+            "settings": {
+                "python.analysis": {
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "strict",
+                    "ignore": ["**/__init__.py"]
+                },
+                "python": {
+                    "pythonPath": "venv/bin/python"
+                }
+            }
+        },
+        "gopls": {
+            "initialization_options": {
+                "usePlaceholders": false
+            }
         }
     }
-  }
 }
