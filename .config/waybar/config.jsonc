@@ -4,6 +4,7 @@
     "height": 20,
     "layer": "top",
     "position": "top",
+    "output": "DVI-D-1",
     "modules-left": [
         "hyprland/workspaces"
     ],
